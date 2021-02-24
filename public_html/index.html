@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Laboratorio 2 </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+    </head>
+    <body>
+        <form action="" method="POST" onsubmit="return false;" > 
+            <div style="border:3px solid  rgb(204,120,204);
+                 width:1400px;
+                 margin-left:auto;
+                 margin-right: auto
+                 ">
+            <div style="width:800px;
+               margin-left: 100px;
+               margin-right: auto;
+               ">
+                <p> <b>Introduce los términos de búsqueda:</b>  </p>
+            <br> 
+            <p><b>OBRA</b> </p>  
+        <label for="titulo">Titulo</label>
+        <input type ="text" placeholder="" name="txttitulo" id="titulo">
+        <br>  <br>
+        <label for="titulo">Autor</label>
+        <input type ="text" placeholder="" name="txtAutor" id="autor">
+      
+         </div>
+                <div  style="width:800px;
+               margin-left: auto;
+               margin-right:250px;
+               margin-top: -110px ">
+                <p><b>TIPO</b></p>
+                <input type="checkbox" name="Escultura"/>Esculura <br>
+                <input type="checkbox" name="Arquitectura"/>Arquitectura<br>
+                <input type="checkbox" name="Pintura"/>Pintura
+                   
+            </div>
+       
+                    <div style="width:800px; 
+                     margin-left:auto;
+                     margin-right:100px;
+                     margin-top: -110px">
+                        <p><b>DISPONOBILIDAD</b> </p>   
+                    <input type="radio" value="1" name="radio1">Museo/ Acceso públivo<br>
+                    <input type="radio" value="0" name="radio2">Colección privada
+                    
+                </div>
+                <br>
+                        <div style="width:800px;
+                             margin-left:auto;
+                             margin-right:-100px;
+                             margin-top: -110px">
+                            <p><b>ESTILO</b></p>
+                            <select name="estilo" id="txtestilo" >
+                            <option value="1">Clásico</option>
+                            <option value="2">Rustico</option>
+                        </select>    
+                    </div>   
+                <br><br><br>
+                            
+                             <div> 
+                                 <p>Haganos saber sus sugerencias:</p>
+                                 <textarea name="observaciones" rows="4" cols="40" id="txrobservaciones" placeholder="Me gustaria indicar que ..." style="width: 800px" ></textarea>
+                            </div>
+                <br>
+                <input type="submit" value="BUSCAR"/>
+                <br>
+                
+                        </div>
+        </form>
+        
+        
+    </body>
+</html>
